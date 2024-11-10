@@ -1,9 +1,10 @@
 import React from 'react';
+import fotosaya from '../rizky.jpg';
 
 function Profile() {
     return (
       <img
-        src="/rizky.jpg"
+        src={fotosaya.src}
         alt="foto rizky"
         className="fotoku"
       />
